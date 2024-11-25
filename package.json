@@ -1,0 +1,19 @@
+{
+  "name": "blueconic-client",
+  "description": "Codegen client for BlueConic's REST API",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "openapi-generator-cli generate",
+    "test": "tsx --env-file .env src/index.ts"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.15.3",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.9.0",
+    "oasin": "^1.0.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
